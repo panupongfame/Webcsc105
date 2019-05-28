@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>   
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="css/work2.css" />     
+       <title>Travel diaries</title>
+    </head>
+      <div id="main_wrapper">      
+        <header>    
+                <div id="main_title">
+                    <img src="img/logo.png" alt="Zozor logo" id="logo"weight="59"height="60" />
+                    <h1>Zozor</h1>
+                    <h2>Travel diaries</h2>
+                </div>
+                
+                <nav>
+                    <ul>
+                        <li><a href="work2.html">Home</a></li>
+                        <li><a href="index.html">Blog</a></li>
+                        <li><a href="index.html">Resume</a></li>
+                        <li><a href="index.html">Contact</a></li>
+                    </ul>
+                 </nav>
+       
+            </header>              
+            <body1> 
+             
+           <div class="w3-content w3-display-container">
+           <div id="banner_images">                                         
+            <img  class="mySlides"src="img/sanfrancisco.jpg" style="width:100%" height="100%">
+            <img  class="mySlides"src="img/san.jpg" style="width:100%" height="100%">
+            <img  class="mySlides"src="img/fran.jpg" style="width:100%"height="100%">
+            <img  class="mySlides"src="img/cis.jpg" style="width:100%"height="100%">
+            <img  class="mySlides"src="img/co.jpg" style="width:100%"height="100%">   
+            <button class="but1" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="but2" onclick="plusDivs(1)">&#10095;</button> 
+            <div id="banner_description"> 
+                    Reflections on my holiday in the United States...
+                    <a href="#" class="red_button">See article <img src="img/small_arrow.png" alt="" /></a>  
+        </div> </div></div>      
+        <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
+            
+            function plusDivs(n) {
+              showDivs(slideIndex += n);
+            }
+            
+            function showDivs(n) {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              if (n > x.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = x.length}
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              x[slideIndex-1].style.display = "block";  
+            }
+            </script>
+            </body1>         
+        
+            <section>    
+                <article>
+                
+                    <h1><img src="img/pin.png" alt="Travel category" class="cat_icon" />I'm a great traveller</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem. Vestibulum luctus elit eu libero ultrices id fermentum sem sagittis. Nulla imperdiet mauris sed sapien dignissim id aliquam est aliquam. Maecenas non odio ipsum, a elementum nisi. Mauris non erat eu erat placerat convallis. Mauris in pretium urna. Cras laoreet molestie odio, consequat consequat velit commodo eu. Integer vitae lectus ac nunc posuere pellentesque non at eros. Suspendisse non lectus lorem.</p>
+                    <p>Vivamus sed libero nec mauris pulvinar facilisis ut non sem. Quisque mollis ullamcorper diam vel faucibus. Vestibulum sollicitudin facilisis feugiat. Nulla euismod sodales hendrerit. Donec quis orci arcu. Vivamus fermentum magna a erat ullamcorper dignissim pretium nunc aliquam. Aenean pulvinar condimentum enim a dignissim. Vivamus sit amet lectus at ante adipiscing adipiscing eget vitae felis. In at fringilla est. Cras id velit ut magna rutrum commodo. Etiam ut scelerisque purus. Duis risus elit, venenatis vel rutrum in, imperdiet in quam. Sed vestibulum, libero ut bibendum consectetur, eros ipsum ultrices nisl, in rutrum diam augue non tortor. Fusce nec massa et risus dapibus aliquam vitae nec diam.</p>
+                    <p>Phasellus ligula massa, congue ac vulputate non, dignissim at augue. Sed auctor fringilla quam quis porttitor. Praesent vitae dignissim magna. Pellentesque quis sem purus, vel elementum mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas consectetur euismod urna. In hac habitasse platea dictumst. Quisque tincidunt porttitor vestibulum. Ut iaculis, lacus at molestie lacinia, ipsum mi adipiscing ligula, vel mollis sem risus eu lectus. Nunc elit quam, rutrum ut dignissim sit amet, egestas at sem.</p>
+                </article>
+                <aside>
+                    <h1>About the author</h1>
+                    <img src="img/arrow.png" alt="" id="arrow" />
+                    <p id="zozor_picture"><img src="img/v.png"width="139"height=116 alt="Zozor Picture" /></p>
+                    <p>Let me introduce myself: My name's Zozor. I was born on 23 November 2005.</p>
+                    <p>A bit meager, is it not? This is why I've now decided to write my biography to let my readers know who I really am.</p>
+                    <p><a href="https://www.facebook.com/panupongflame"><img src="img/fb.png"></a>
+                        <a href="https://www.instagram.com/panupongflame"><img src="img/ig.png"></a>
+                      <a href="https://line.me/ti/p/DCD1PqIasp"><img src="img/line.png"></a></p>
+                </aside>
+            </section>
+            <br>
+            <footer>
+                <div id="tweet">
+                        <img src="img/twitter.png" alt="Twitter" />
+                    <h1>My last tweet</h1>
+                    <p>Hee-haw!</p>
+                    <p>12/05 23:12</p>
+                </div>
+                <div id="my_pictures">
+                    <h1>My pictures</h1>
+                    <p><img src="img/pic1.jpg" alt="Picture" /><img src="img/pic2.jpg" alt="Picture" /><img src="img/pic3.jpg" alt="Picture" /><img src="img/pic4.jpg" alt="Picture" /></p>
+                </div>
+                <div id="my_friends">
+                    <h1>My friends</h1>
+                    <ul>
+                        <li><a href="#">Pupi the rabbit</a></li>
+                        <li><a href="#">Mr Baobab</a></li>
+                        <li><a href="#">Kaiwaii</a></li>
+                        <li><a href="#">Perceval.eu</a></li>
+                    
+                    </ul>
+                    <ul>
+                        <li><a href="#">Ji</a></li>
+                        <li><a href="#">Super cucumber</a></li>
+                        <li><a href="#">Prince</a></li>
+                        <li><a href="#">Mr Fan</a></li>
+               
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
