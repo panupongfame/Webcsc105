@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body, html{
+    scroll-behavior: smooth;
+}
+nav {
+    background-color: #0A0A0A;
+    position: sticky;
+    width: 100%;
+    font-family: Poppins;
+  }
+  .logo{
+    letter-spacing: 3px;
+    font-size: 30px;
+    text-decoration: none;
+    color:#333;
+    font-weight: bold;
+    text-transform: uppercase; 
+  }
+  nav .navcontainer{
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    display: flex;
+    min-height: 8vh;   
+  }
+  .logo{
+    color:rgb(226, 226, 226);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 35px;
+    text-decoration: none;  
+    float: left;
+  }
+  .nav-links{
+      list-style: none;
+      display: flex;
+      margin-left: 50px;
+      float:right; 
+  }
+  .nav-links a{
+      text-decoration: none;
+      color:rgb(226, 226, 226);
+      display: inline;
+      margin-right: 25px;   
+  }
+
+.box1{
+    width:100%;
+    height:auto;
+    background-color:#0A0A0A;
+    font-family: 'Poppins', sans-serif;
+}
+.profile h3{
+    color:rgb(226, 226, 226);
+    padding-top:400px;
+    padding-left:870px;
+    font-size: 30px;
+}
+.profile h1{
+    
+    color:rgb(226, 226, 226);
+    
+}
+.box2 {
+    background-color: #0A0A0A;
+    width: 100%;
+    text-align: center;
+}
+.box2 a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.slider p{
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    width: 100%;
+    padding-top:300px; 
+    color: white;
+    letter-spacing: 1rem;
+}
+.box{
+    width: 100%;
+    height: 100vh;
+    background-color: #0A0A0A;
+}
+.slider{
+
+    overflow: hidden;
+    height: 100vh;
+}
+
+.slider figure img{
+    width: 100%;
+    float: left;
+
+}
+.slider figure div{
+    width:20%;
+    float: left;
+}
+.slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation:30s slidy infinite;
+}
+/* @keyframes slidy{
+    0%{
+        left:0%;
+    }
+    10%{
+        left:-0%;
+    }
+    20%{
+        left:-0%;
+    }
+    30%{
+        left:-100%;
+    }
+    40%{
+        left:-100%;
+    }
+    50%{
+        left:-100%;
+    }
+    60%{
+        left:-100%;
+    }
+    70%{
+        left:0%;
+    }
+    80%{
+        left:00%;
+    }
+    90%{
+        left:0%;
+    }
+    100%{
+        left:00%;
+    }
+    
+} */
